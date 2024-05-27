@@ -390,6 +390,5 @@ view: co2 {
   measure: total_sum_dim {
     type: sum
     sql: ${dim_cement}+${dim_coal}+${dim_flaring}+${dim_gas}+${dim_oil}+${dim_other} ;;
-    value_format: "#,##0.00"
   }
 }

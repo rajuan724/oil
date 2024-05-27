@@ -10,5 +10,8 @@ datagroup: oil_default_datagroup {
 
 persist_with: oil_default_datagroup
 
-explore: co2 {}
-
+explore: co2 {
+  always_filter: {
+    filters: [co2.year: ">1990"]
+  }
+}
